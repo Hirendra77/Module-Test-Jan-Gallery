@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+#images{
+    display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+img{
+    margin-left: 50px;
+}
+img:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+fieldset{
+    height: 40vh;
+    width: 30vw;
+   }
+
+   #formGroup{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border: 2px solid black;
+     
+   }
+   .hidden{
+    display: none;
+  
+   }
+   
+   input{
+    width:200px;
+    margin:10px 5px;
+   }
+   label{
+    margin-left: 5px;
+   }
+   /* #userData{
+    width: 100px;
+    height: 50px;
+    border: 2px solid red;
+   } */
+   /* .display{
+    display: block;
+   } */
+
+   #diceImg{
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 100px;
+   }
+   #coupan{
+      position:relative;
+      top: 50px;
+      left: 65%;
+      background-color: yellow;
+   }

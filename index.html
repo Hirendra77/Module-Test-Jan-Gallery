@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Test Jan</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <p>GALLERY</p>
+    <div id="images">
+        <img src="./images/registration.png" alt="" id="img1">
+        <img src="./images/registerdSuc.png" alt="" id="img2">
+        <img src="./images/startGame.jpg" alt="" id="img3">
+        <img src="./images/coupan.png" alt="" id="img4">
+    </div>
+    <div id="formGroup" class="hidden">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name" id="name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Enter your email" id="email">
+            <br><br>
+            <label for="username">Username:</label>
+            <input type="text" name="username" placeholder="Enter your username" id="username">
+            <br><br>
+            <input type="submit" id="addbtn">
+        </form>
+
+        <!-- show user data -->
+    </div>
+    <div id="userData" class="hidden ">
+       
+    </div>
+
+    <!-- Dice game start -->
+    <div><img src="./images/dice.jpg" alt="" class="hidden" id="diceImg" onclick="diceG()"></div>
+    <div id="dicegame" class="hidden">
+        Player <input type="text" value="Hirendra" id="player">
+        <!-- <button class="diceRollButton" id="0">Roll the Dice</button> -->
+        <span id="score"></span>
+    </div>
+    <div >
+        <span id="coupan"></span>
+        <img src="./images/congrate.jpg" alt="" class="hidden" id="congrates">
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
